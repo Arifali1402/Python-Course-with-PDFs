@@ -1,0 +1,5 @@
+a = input("Enter the first number: ")
+a = int(a)
+print("Its square is: ", a*a)
+print("Its square is: ", pow(a,2))
+print("Its square is: ", a**2)
