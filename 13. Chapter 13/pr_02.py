@@ -1,6 +1,3 @@
-from xml.sax.handler import property_interning_dict
-
-
 name = input("Enter the Name: ")
 marks = input("Enter the Marks obtained: ")
 phNo = input("Enter the Phone Number: ")

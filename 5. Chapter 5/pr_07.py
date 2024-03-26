@@ -1,7 +1,4 @@
-from optparse import OptionGroup
-from tkinter.tix import InputOnly
-
-#Recently Updated value will appear
+#Recently Updated value will appear in all the keys
 a = {}
 
 f1 = input("Enter your Favourite Language Arif: ")

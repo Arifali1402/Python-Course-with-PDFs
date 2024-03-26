@@ -1,10 +1,13 @@
-from pathlib import PureWindowsPath
 myDict = {
-    "Pankha": "fan",
+    "Pankha": "Fan",
     "Dabba" : "Box",
     "Vastu" : "Item"
 }
-print("Options Are", myDict.keys())
+print("Options Are", list(myDict.keys()))
 a = input("Enter the Hindi Word: ")
 
-print("The meaning of the word in hindi is:",myDict.get(a)) # To Avoid Error
+if(myDict.get(a) == None):
+    print("The Hindi Word of",a,"does not exist in the Given Dictionary")
+
+else:
+    print("The meaning of the word in hindi is:",myDict.get(a)) # To Avoid Error

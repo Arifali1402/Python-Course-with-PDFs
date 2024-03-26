@@ -1,6 +1,3 @@
-from asyncio import streams
-
-
 name = "Arif"
 college = "TMSL"
 stream = "Engineering"

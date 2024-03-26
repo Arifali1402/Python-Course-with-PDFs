@@ -3,6 +3,7 @@ class Employee:
     salary = 5600
     salarybonus = 400
     # totalSalary = 6100 
+    # Internally a property but acts as an attribute of the class
     @property
     def totalSalary(self):
         return self.salary + self.salarybonus

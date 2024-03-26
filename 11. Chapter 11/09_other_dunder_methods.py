@@ -1,6 +1,3 @@
-from numpy import number
-
-
 class Number:
     def __init__(self, num):
         self.num = num

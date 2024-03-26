@@ -1,10 +1,10 @@
 # is 
 
-# a = None
-# if(a is None): # "is" points to the object of a and "==" check for value
-#     print("Yes")
-# else:
-#     print("No")
+a = None
+if(a is None): # "is" points to the object of a and "==" check for value
+    print("Yes")
+else:
+    print("No")
 
 # in
 a = [45,56,6]

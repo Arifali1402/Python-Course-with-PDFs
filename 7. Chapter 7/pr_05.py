@@ -1,6 +1,3 @@
-from cgi import print_form
-
-
 num = int(input("Enter the Limit: "))
 i = 1
 add = 0

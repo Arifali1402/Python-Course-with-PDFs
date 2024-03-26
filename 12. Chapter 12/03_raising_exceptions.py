@@ -4,5 +4,7 @@ def Increment(num):
     except:
         raise ValueError("This is not good")
 
+# a = Increment(76)
+# print(a)
 a = Increment('asfs')
 print(a)

@@ -1,2 +1,2 @@
 s = {}
-print(type(s))
+print(type(s)) # Output: <class 'dict'>

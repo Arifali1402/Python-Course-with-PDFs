@@ -6,7 +6,7 @@ class Vector:
         str1 = ""
         index = 0
         for i in self.vec:
-            str1 += f" {i}a{index} +"
+            str1 += f"{i}a{index} +"
             index+=1
         return str1[:-1]
     

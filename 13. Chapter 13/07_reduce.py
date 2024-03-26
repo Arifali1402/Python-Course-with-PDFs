@@ -1,6 +1,7 @@
 from functools import reduce
 
 sum = lambda a,b:a+b
+# greater = lambda a,b:a>b
 def greater(num1,num2):
     if num1>num2:
         return num1

@@ -5,6 +5,7 @@ try:
 except Exception as e:
     print(e)
     exit()
+# This will execute irrespective of try-except clause
 finally:
     print("We are done")
 

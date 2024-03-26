@@ -10,11 +10,10 @@ print(t[3])
 #t[2] = 67 --> major difference between list and tuple
 
 #Empty Tuple
-
 t1 = ()
 print(t1)
 
 #Tuple with only one element needs a comma
-# t2 = (1)-->Wrong way to declare a tuple with one element
+# t2 = (1) --> Wrong way to declare a tuple with one element
 t2 = (1,)
 print(t2)

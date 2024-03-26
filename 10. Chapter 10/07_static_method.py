@@ -13,7 +13,6 @@ class Employee:
 
 arif = Employee()
 arif.salary = 100000
-arif.getSalary("thanks")  # == Employee.getSalary(arif)
+arif.getSalary("Thanks!")  # == Employee.getSalary(arif,"thanks")
 arif.greet() # == Employee.getSalary()
 arif.time()
-

@@ -10,7 +10,7 @@ class Employee:
     def getDetails(self):
         print(f"The name of the Employee is {self.name}")
         print(f"The salary of the Employee is {self.salary}")
-        print(f"The name of the Employee is {self.subunit}")
+        print(f"The name of the subunit of the Employee is {self.subunit}")
 
     def getSalary(self,signature):
         print(f"Salary for this employee working in {self.company} is {self.salary}\n{signature}")
@@ -24,5 +24,6 @@ class Employee:
         print("The time is 9AM in the morning")
 
 harry = Employee("Arif", 1000,"YouTube")
-# harry = Employee() # Throws an error --> missing 3 required positional arguments:
+# harry = Employee() # Throws an error --> missing 3 required positional arguments.
 harry.getDetails()
+harry.getSalary("'Sign'")

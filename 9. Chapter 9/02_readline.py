@@ -1,4 +1,4 @@
-f = open("sample.txt", "r")
+f = open("sample2.txt", "r")
 
 # Read first line
 data = f.readline()
@@ -15,4 +15,7 @@ print(data)
 data = f.readline()
 print(data)
 
+# will print blank as there is nothing to read
+data = f.readline()
+print(data)
 f.close()

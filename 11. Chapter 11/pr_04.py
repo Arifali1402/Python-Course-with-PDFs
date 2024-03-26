@@ -25,7 +25,7 @@ class Complex:
         return Complex(mulReal,mulImg)
         
 
-c1 = Complex(1 , -4)
+c1 = Complex(1 , 4)
 c2 = Complex(8 , -35)
 print(c1)
 print(c2)

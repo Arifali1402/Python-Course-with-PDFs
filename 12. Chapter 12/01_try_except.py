@@ -1,6 +1,5 @@
-
 while(True):
-    print("Press q to quit..")
+    print("Press 'q' to quit..")
     a = input("Enter a number: ")
     if a == 'q':
         break

@@ -1,4 +1,3 @@
-from re import I
 content = True
 i = 1
 with open("log.txt", "r") as f:

@@ -7,5 +7,3 @@ def add(num):
 num = int(input("Enter the Limit: "))
 s = add(num)
 print(f"The Sum Of First {num} Natural Number is {s}")
-
-

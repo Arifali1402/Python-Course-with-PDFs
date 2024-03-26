@@ -8,6 +8,6 @@ def greater_then_5(num):
 
 g10 = lambda num: num>10
 
-l = [1,2,3,4,5,6,7,8,9,10,12]
+l = [1,2,3,4,5,6,7,8,9,10,12,70]
 print(list(filter(greater_then_5,l)))
 print(list(filter(g10,l)))

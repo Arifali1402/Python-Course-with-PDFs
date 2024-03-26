@@ -1,6 +1,3 @@
-from numpy import rint
-
-
 class Train:
     def __init__(self,name,fare,seats):
         self.name = name
@@ -15,7 +12,7 @@ class Train:
 
 
     def getFareInfo(self):
-        print(f"Price of the Train Ticket - RS {self.fare}")
+        print(f"Price of the Train Ticket - RS.{self.fare}")
 
     def bookingTicket(self):
         if(self.seats>0):
@@ -23,7 +20,7 @@ class Train:
             print(f"Your Seat Number is: {self.seats}")
             self.seats = self.seats - 1
         else:
-            print("Sorry, This Train Is Full.Kindly Try in in other Train") 
+            print("Sorry, This Train Is Full.Kindly Try in other Trains/ Tatkal") 
     def cancelTicket(self,seatnumber):
         pass
 

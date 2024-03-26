@@ -1,7 +1,7 @@
 import random
 
 # Similar to ROCK,PAPER And SCISSOR
-
+    
 def gameWin(comp,you):
     if comp == you:
         return None
@@ -23,7 +23,6 @@ def gameWin(comp,you):
         elif you == 's':
             return False
 
-
 print("Comp Turn: Snake(s) Water(w) or Gun(g)")
 randNo = random.randint(1,3)
 # print(randNo)
@@ -33,16 +32,17 @@ elif randNo == 2:
     comp = 'w'
 elif randNo == 3:
     comp = 'g'
-you = input("Your Turn: Snake(s) Water(w) or Gun(g)\n")
-
-print(f"Computer Chose: {comp}")
-print(f"You Chose: {you}")
-
-a = gameWin(comp,you)
-if(a == None):
-    print("The Game ended in a Tie!")
-elif(a):
-    print("YOU WIN!")    
+you = input("Your Turn: Snake(s) Water(w) or Gun(g): ")
+if(you in ['s','w','g']):
+    print(f"Computer Chose: {comp}")
+    print(f"You Chose: {you}")
+    a = gameWin(comp,you)
+    if(a == None):
+        print("The Game has ended in a Tie!")
+    elif(a):
+        print("YOU WIN!")    
+    else:
+        print("YOU LOSE!")
 else:
-    print("YOU LOSE!")
+    print("Invalid Choice.. You Lose!!")
 

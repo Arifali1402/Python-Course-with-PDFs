@@ -1,6 +1,3 @@
-from tkinter.tix import InputOnly
-
-
 age = int(input("Enter the age: "))
 
 if(age >= 18):

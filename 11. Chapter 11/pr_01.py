@@ -12,7 +12,6 @@ class C3DVec(C2DVec):
     def __str__(self):
         return f"{self.icap}i + {self.jcap}j + {self.kcap}k"
 
-
 v2d = C2DVec(1,3)
 v3d = C3DVec(1,9,7)
 print(v2d)

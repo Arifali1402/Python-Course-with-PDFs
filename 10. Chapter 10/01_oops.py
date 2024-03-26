@@ -8,9 +8,9 @@ num.b = 34
 s = num.sum()
 print(s)
 '''
-PascalCase
-EmployeeName -->PascalCase    [First Letter of the word should be Capital]
+1. PascalCase
+EmployeeName -->PascalCase    [First Letter of each word should be Capital]
 
-camelCase
-isNumeric,isFloatOrInt-->camelCase   [First Letter of the word should be small and second Letter of the word should be Capital]
+2. camelCase
+isNumeric,isFloatOrInt-->camelCase   [First Letter of first word should be small,then first  Letter of the remaining word should be Capital]
 '''

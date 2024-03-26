@@ -1,6 +1,3 @@
-from re import L
-
-
 def div_by_5(num):
     if(num%5==0):
         return True

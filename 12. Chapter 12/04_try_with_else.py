@@ -1,6 +1,3 @@
-from re import I
-
-
 try:
     i = int(input("Enter a number: "))
     c = 1/i
@@ -8,5 +5,6 @@ try:
 except Exception as e:
     print(e)
 
+# This will execute only when the try gets executed
 else:
     print("We were successful")

@@ -1,3 +1,3 @@
 fruits = ['banana', 'apple', 'watermelemon', 'grapes']
 for item in fruits:
-    print(item)
+    print(item,end=" ")

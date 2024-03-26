@@ -1,6 +1,3 @@
-from optparse import OptionGroup
-from tkinter.tix import InputOnly
-
 #It will be noted that keys must be unique, values aren't necessary
 
 a = {}

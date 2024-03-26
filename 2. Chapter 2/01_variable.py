@@ -9,14 +9,10 @@ as	    except  lambda    with
 assert	finally	nonlocal  yield
 break	for	    not	
 class	from	or	      continue	
-global	pass'''
+global	pass
+'''
 
-from tkinter import E
-from traceback import print_tb
-
-from flask import g
-
-
+# Remember that variables are case sensitive
 a = "harry"# cannot add new line
 d = 'harry'
 e = ''' "harry" '''
@@ -40,7 +36,7 @@ print(f)
 print(g)
 print(h)
 
-#printing the type of variables
+#printing the type or class of variables
 
 print(type(a))
 print(type(b))
@@ -50,4 +46,3 @@ print(type(e))
 print(type(f))
 print(type(g))
 print(type(h))
-

@@ -14,9 +14,10 @@ n4 = int(input("Enter Number 4: "))
 #     print(str(n4),"is the greatest")
     
 
-    # Alternate Method
+# Alternate Method
 
 if(n1>n4):
+    # pass ---> will be filled later
     f1 = n1
 else:
     f1 = n4
@@ -26,6 +27,6 @@ else:
     f2 = n3
 
 if(f1>f2):
-    print(str(f1),"is the Greatest")
+    print(f1,"is the Greatest")
 else:
-    print(str(f2),"is the Greatest")
+    print(f2,"is the Greatest")

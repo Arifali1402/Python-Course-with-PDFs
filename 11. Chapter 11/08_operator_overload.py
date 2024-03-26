@@ -2,11 +2,11 @@ class Number:
     def __init__(self, num):
         self.num = num
     def __add__(self, num2):
-        print("Lets add")
+        print("Let's add")
         return self.num + num2.num
 
     def __mul__(self, num2):
-        print("Lets Multiply")
+        print("Let's Multiply")
         return self.num * num2.num
 
 n1 = Number(4)

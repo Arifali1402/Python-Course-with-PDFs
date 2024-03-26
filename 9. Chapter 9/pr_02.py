@@ -1,5 +1,5 @@
 def game():
-    return 9
+    return 20
 
 score = game()
 

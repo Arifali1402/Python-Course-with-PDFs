@@ -1,7 +1,5 @@
 from cgi import print_form
 from tkinter import E
-
-
 a = 3
 b = 4
 # Arithmetic operators
@@ -15,10 +13,8 @@ print("the value is a/b is", a/b) #(int/int) = float
 a = 34
 a +=12
 a *=13
-a /=1
+a /=1 # Division always give you a floating point value as an output
 print(a)
-
-
 # Comparison Operator
 
 a = (4>7)
@@ -37,6 +33,6 @@ print(e) # Gives a Boolean Return
 bool1 = True
 bool2 = False
 print("The value of bool1 and bool2 is", (bool1 and bool2))
-print("The value of bool1 and bool2 is", (bool1 or bool2))
+print("The value of bool1 or bool2 is", (bool1 or bool2))
 print("The value of not bool1 is", (not bool1)) # Not only takes 1 variable
 print("The value of not bool2 is", (not bool2))

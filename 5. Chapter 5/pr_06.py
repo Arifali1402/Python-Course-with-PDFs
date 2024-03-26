@@ -1,5 +1,3 @@
-from optparse import OptionGroup
-from tkinter.tix import InputOnly
 a = {}
 
 f1 = input("Enter your Favourite Language Arif: ")
@@ -10,5 +8,4 @@ a['Arif'] = f1
 a['Asif'] = f2
 a['Atif'] = f3
 a['Alif'] = f4
-
 print(a)

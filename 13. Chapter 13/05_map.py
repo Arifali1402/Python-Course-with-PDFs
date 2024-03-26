@@ -9,4 +9,9 @@ for item in l1:
 print(l2)
 
 # Method 2
-print(list(map(square,l1)))
+l3 = list(map(square,l1))
+print(l3)
+
+# Method 3
+tuple1 = tuple(map(square,l1))
+print(tuple1)

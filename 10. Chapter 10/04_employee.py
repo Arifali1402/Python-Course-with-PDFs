@@ -4,7 +4,7 @@ class Employee:
 harry = Employee() # Object Instantiation
 arif = Employee()
 harry.salary = 300 # Instance attribute
-arif.salary = 100
+arif.salary = 200
 # Instance attribute take preference over the class attribute
 print(harry.salary)
 print(arif.salary)

@@ -1,17 +1,14 @@
 class Employee: # Base Class
     company = "Google"
-
     def showDetails(self):
         print("This is an employee")
 
 class Programmer(Employee): # Child Class
     language = "Python"
-    company = "YouTube"
-
+    company = "YouTube" # over writing an already existing attribute
     def getLanguage(self):
         print(f"The Language is {self.language}")
-
-    def showDetails(self):
+    def showDetails(self): # over writing an already existing function
         print("This is a Programmer")
 
 e = Employee()

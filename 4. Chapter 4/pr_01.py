@@ -6,5 +6,5 @@ f5 = input("Enter the Fruit Number 5: ")
 f6 = input("Enter the Fruit Number 6: ")
 f7 = input("Enter the Fruit Number 7: ")
 print("Given Fruit List:")
-myfruit = [f1,f2,f3,f4,f5,f6,f7]
-print(myfruit)
+myFruit = [f1,f2,f3,f4,f5,f6,f7]
+print(myFruit)

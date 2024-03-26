@@ -2,9 +2,6 @@
 #Some methods for Case_insenstivity
 # string.upper()
 # string.casefold() -->Strongest
-
-st = input("Enter the String: ")
-
 name = "Harry"
 st = input("Enter the String: ")
 

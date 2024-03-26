@@ -1,6 +1,3 @@
-from itertools import product
-from re import U
-
 def fact_iterative(num):
     product = 1
     for i in range(num):

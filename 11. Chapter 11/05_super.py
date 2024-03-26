@@ -1,3 +1,4 @@
+# We can comment out the constructor of the EMployee class but still the super() operator will work but this is not same in case of other class methods
 class Person:
     country = "India"
 
@@ -27,7 +28,7 @@ class Programmer(Employee):
     company = "Fiverr"
 
     def __init__(self):
-        # super().__init__()
+        super().__init__()
         print("Initialising Programmer...\n")
 
     def getSalary(self):
@@ -38,11 +39,5 @@ class Programmer(Employee):
         print("I am a Programmer so i am breathing++...")
 
 
-# p = Person()
-# p.takeBreath()
-
-# e = Employee()
-# e.takeBreath()
-
 pr = Programmer()
-# pr.takeBreath()
+pr.takeBreath()

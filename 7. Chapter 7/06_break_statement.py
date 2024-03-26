@@ -6,4 +6,4 @@ for i in range(10):
     # Else statement only works if the loop exit naturally
 
 else:
-    print("This is inside else of for")
+    print("This is inside else of for loop")

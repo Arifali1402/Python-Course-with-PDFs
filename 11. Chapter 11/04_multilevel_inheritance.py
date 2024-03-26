@@ -15,7 +15,7 @@ class Programmer(Employee):
     company = "Fiverr"
 
     def getSalary(self):
-        print("No salary to Programmer")
+        print("No salary to Programmers")
     def takeBreath(self):
         print("I am a Programmer so i am breathing++...")
 

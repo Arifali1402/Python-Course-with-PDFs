@@ -3,7 +3,7 @@ try:
     c = 1/a
     print(c)
 except ValueError as e:
-    print(" enter a valid value.")
+    print("Enter a valid Number.")
     # print(e)
 except ZeroDivisionError as e:
     print("Make Sure you are not dividing by 0 ")
